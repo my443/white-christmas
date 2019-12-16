@@ -1,0 +1,8 @@
+wget --content-disposition "https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=1706&Year=${1985}&Month=${6}&Day=14&timeframe=1&submit= Download+Data" ;done;done
+
+https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=1706&Year=1985&Month=6&Day=14&timeframe=1
+
+https://drive.google.com/drive/folders/1WJCDEU34c60IfOnG4rv5EPZ4IhhW9vZH
+
+Roseville Station ID = 4816
+Since 1972
