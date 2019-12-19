@@ -1,4 +1,4 @@
-wget --content-disposition "https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=1706&Year=${1985}&Month=${6}&Day=14&timeframe=1&submit= Download+Data" ;done;done
+wget --content-disposition "https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=1706&Year=${1985}&Month=${6}&Day=14&timeframe=1&submit=Download+Data" ;done;done
 
 https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=1706&Year=1985&Month=6&Day=14&timeframe=1
 
@@ -6,3 +6,18 @@ https://drive.google.com/drive/folders/1WJCDEU34c60IfOnG4rv5EPZ4IhhW9vZH
 
 Roseville Station ID = 4816
 Since 1972
+
+https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=4816&Year=2018&Month=12&Day=14&timeframe=2&submit=Download+Data
+
+WHERE;
+• year = change values in command line (`seq 1998 2008)
+• month = change values in command line (`seq 1 12)
+• format= [csv|xml]: the format output
+• timeframe = 1: for hourly data
+• timeframe = 2: for daily data
+• timeframe = 3 for monthly data
+• Day: the value of the "day" variable is not used and can be an arbitrary value
+• For another station, change the value of the variable stationID
+• For the data in XML format, change the value of the variable format to xml in the URL.
+
+https://climate.weather.gc.ca/climate_data/daily_data_e.html?hlyRange=%7C&dlyRange=1972-10-01%7C2019-11-11&mlyRange=1972-01-01%7C2006-12-01&StationID=4816&Prov=ON&urlExtension=_e.html&searchType=stnProx&optLimit=yearRange&StartYear=1840&EndYear=2019&selRowPerPage=25&Line=12&txtRadius=25&optProxType=city&selCity=43%7C27%7C80%7C29%7CKitchener&selPark=&txtCentralLatDeg=&txtCentralLatMin=0&txtCentralLatSec=0&txtCentralLongDeg=&txtCentralLongMin=0&txtCentralLongSec=0&timeframe=2&Day=1&Year=1977&Month=10#
